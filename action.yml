@@ -1,6 +1,9 @@
 name: 'get-node-version-from-volta'
 description: 'get node version from volta'
 author: 'keita-hino'
+branding:
+  icon: target
+  color: green
 outputs:
   nodeVersion:
     description: get node version from volta.

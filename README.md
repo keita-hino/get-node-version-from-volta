@@ -35,7 +35,7 @@ jobs:
 ## `nodeVersion`
 The node version specified in package.json will be set.
 
-```json
+```js
 ...
 "volta": {
   "node": "14.18.1"

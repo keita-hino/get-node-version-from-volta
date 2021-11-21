@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Get node version from volta
         id: get-node-version
-        uses: keita-hino/get-node-version-from-volta@get-node-version
+        uses: keita-hino/get-node-version-from-volta@main
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ steps.get-node-version.outputs.nodeVersion }}

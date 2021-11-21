@@ -7,9 +7,7 @@ If you are using [volta](https://volta.sh/) to manage node versions, you can use
 2. [Run volta pin command.](https://docs.volta.sh/reference/pin)
 
 # Usage
-Add to your existing workflow file or create a new file named `.github/workflows/check_vue_tsc.yml` and copy over one of the examples below to your new workflow file.
-
-This is the simplest example to get it running:
+Please add to an existing workflow file with reference to the following.
 
 ```yml
 name: get node version

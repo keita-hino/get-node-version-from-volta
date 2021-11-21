@@ -14,7 +14,7 @@ This is the simplest example to get it running:
 ```yml
 name: get node version
 
-on: [push]
+on: push
 
 jobs:
   buid:

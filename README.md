@@ -14,7 +14,7 @@ This is the simplest example to get it running:
 ```yml
 name: get node version
 
-on: [push]
+on: push
 
 jobs:
   buid:
@@ -27,8 +27,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ steps.get-node-version.outputs.nodeVersion }}
-      - run: npm install
-      - run: npm test
 ```
 
 # Outputs

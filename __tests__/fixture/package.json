@@ -1,0 +1,6 @@
+{
+  "name": "fixture",
+  "volta": {
+    "node": "14.18.1"
+  }
+}

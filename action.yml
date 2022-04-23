@@ -8,5 +8,5 @@ outputs:
   nodeVersion:
     description: get node version from volta.
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'

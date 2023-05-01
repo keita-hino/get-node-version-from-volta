@@ -34,7 +34,7 @@ The node version specified in package.json will be set.
 ```js
 ...
 "volta": {
-  "node": "14.18.1"
+  "node": "18.16.0"
 }
 ...
 ```
